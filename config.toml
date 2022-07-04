@@ -8,3 +8,46 @@ title = "Hi, I'm Gabi!"
 author = "Gabriela Barrence"
 description = "Designer and Frontend Dev"
 profilePicture = "/images/2022.jpg"
+favicon = "favicons/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/barrence/"
+
+[[params.socialIcons]]
+icon = "fab fa-behance"
+title = "Behance"
+url = "https://www.behance.net/barrence"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/gabrielabarrence"
+
+[menu]
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/post/"
+
+[[menu.main]]
+name = "About"
+weight = 300
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Contact"
+weight = 400
+identifier = "contact"
+url = "/contact/"
+
+
