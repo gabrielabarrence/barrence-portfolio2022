@@ -1,3 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'barrence.work/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Portfolio'
+theme = 'Anatole'
+
+[params]
+title = "Hi, I'm Gabi!"
+author = "Gabriela Barrence"
+description = "Designer and Frontend Dev"
+profilePicture = "/images/2022.jpg"
